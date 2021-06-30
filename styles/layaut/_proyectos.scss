@@ -1,0 +1,26 @@
+.proyectos {
+    background-color: white;    
+}
+
+.title__proyectos {
+    color: $secundario;
+    text-align: center;
+    padding-top: 9rem;
+}
+
+.contenedor__proyectos {
+    width: 85%;    
+    margin: 0 auto;
+}
+
+.mas__proyectos {    
+     display: flex;
+     width: 20rem;
+     justify-content: center;
+     margin:  auto;
+     padding: 4rem 0;
+     text-transform: uppercase;
+     text-decoration:underline;
+     color: $secundario;
+     text-decoration-style: unset;
+}

@@ -1,0 +1,74 @@
+.header {    
+    height: 480px;
+    // background-color: blue;
+    @include grid(2, 1 );
+    @include telefono {
+        @include grid (1, 1rem);
+        height:530px;
+    }
+}
+
+.hola {
+    font-size: 4rem;
+}
+
+.mi__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        margin-bottom: 1rem;
+    }
+}
+
+.title {
+    font-weight: normal;
+}
+.sub__title {
+    color:$secundario;
+    font-size: 4rem;
+    font-weight: 400;
+    @include telefono {
+        font-size: 3rem;
+    }
+    
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .mi__foto {
+        border-radius: 50%;
+        @include telefono {
+            width: 200px;
+        }
+    }
+}
+
+.enlaces {
+    margin-top: 3rem;
+    
+}
+
+.boton {
+    background-color: $secundario;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: $blanco;
+    margin-right: 1rem;
+    &:hover{
+        background-color: $blanco;
+        color: $secundario;
+    }
+}
+
+.contactame {
+    margin-top: 2rem;
+    // background-color: red;
+    width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+

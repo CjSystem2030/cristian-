@@ -1,0 +1,57 @@
+.sobre__mi {
+    background-color: black;
+    color: white
+}
+
+.title__sobremi{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.contenedor__sobremi {
+    @include grid(2, 5rem);
+    @include telefono {
+        @include grid(1, 3rem);
+        text-align:center;
+        
+    }
+}
+
+.datos {
+    p{
+        margin-bottom: 2rem;
+        line-height: 2.5rem;
+        padding-left: 4rem;
+        @include telefono {
+            padding: 0 2rem;
+            
+        }
+    }
+}
+
+.herramientas {
+    p, .contenido__herramientas {
+        margin-bottom: 3rem;
+    }
+}
+
+.trabajo {
+    background-color: white;
+    padding: 1rem 0;
+    width: 10rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    @include telefono {
+        margin: 0  auto 2rem auto;
+        
+    }
+}
+
+.cv {
+    background-color: black;
+    width: 3rem;
+    padding: .5rem;
+    border-radius: .3rem;
+}

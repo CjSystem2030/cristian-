@@ -1,0 +1,14 @@
+// Globales
+@import './globales/globals';
+@import './globales/mixin';
+@import './globales/variables';
+
+
+// Layaut
+@import './layaut/index';
+@import './layaut/header';
+@import './layaut//contenedor';
+@import './layaut//proyectos';
+@import './layaut/proyecto';
+@import './layaut/sobremi';
+@import './layaut/footer';
