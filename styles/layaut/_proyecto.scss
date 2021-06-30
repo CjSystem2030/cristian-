@@ -7,6 +7,9 @@
 }
 
 .contenido__proyecto {
+    @include telefono {
+        text-align: center;
+    }
    p{
        margin-bottom: 2rem;
        
@@ -46,6 +49,10 @@
 
 .tecnologia {
     display: flex;
+    @include telefono {   
+        justify-content: space-evenly;     
+       flex-wrap: wrap; 
+    }
 }
 
 .icono {

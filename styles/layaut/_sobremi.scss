@@ -32,6 +32,8 @@
 .herramientas {
     p, .contenido__herramientas {
         margin-bottom: 3rem;
+        padding: 0 1.5rem;
+        line-height: 2.3rem;
     }
 }
 
@@ -49,9 +51,3 @@
     }
 }
 
-.cv {
-    background-color: black;
-    width: 3rem;
-    padding: .5rem;
-    border-radius: .3rem;
-}

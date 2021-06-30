@@ -14,6 +14,7 @@ export const Proyecto = (primer) => {
                 <div className="tecnologia">
                     {html && <p className='icono'>{html}</p>}
                     {javascript && <p className='icono'>{javascript}</p>}
+                    
                     {react && <p className='icono'>{react}</p>}
                 </div>
             </div>
