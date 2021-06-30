@@ -11,6 +11,10 @@
 .contenedor__proyectos {
     width: 85%;    
     margin: 0 auto;
+    @include telefono {
+        width: 90%;
+        
+    }
 }
 
 .mas__proyectos {    
@@ -22,5 +26,5 @@
      text-transform: uppercase;
      text-decoration:underline;
      color: $secundario;
-     text-decoration-style: unset;
+     
 }

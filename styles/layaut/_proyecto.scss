@@ -1,8 +1,8 @@
 .contenedor__proyecto{
-    @include grid(2, 5rem);
+    @include grid(2, 0);
     margin-top: 10rem;
     @include telefono {
-        @include grid(1, 1rem)
+        grid-template-columns: 100%;
     }
 }
 
@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;   
 }
 
 .imagen {
@@ -38,6 +38,9 @@
 
 .descripcion {
     width: 40rem;
+    @include telefono {
+        width: 90%;
+    }
     
 }
 
