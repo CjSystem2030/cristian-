@@ -1,6 +1,6 @@
 .header {    
-    height: 480px;
-    // background-color: blue;
+    height: 580px;
+    // background-color: #fff;
     @include grid(2, 1 );
     @include telefono {
         @include grid (1, 1rem);
@@ -44,7 +44,7 @@
     justify-content: center;
     align-items: center;
     .mi__foto {
-        border-radius: 50%;
+        border-radius: 10%;
         @include telefono {
             width: 200px;
         }

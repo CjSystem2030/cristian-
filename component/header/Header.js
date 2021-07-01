@@ -13,7 +13,7 @@ export const Header = () => {
                 </div>
             </div>
             <div className="img">
-                <img className='mi__foto' src="pp.jpg" alt="" width={300} />
+                <img className='mi__foto' src="pp.jpg" alt="" width={400} />
                 <div className="contactame">
 
                     <a href="">
